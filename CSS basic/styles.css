@@ -1,0 +1,30 @@
+
+ h1 {
+    color: aqua;
+    background-color: grey;
+    font-size: 20px;
+    text-decoration: underline;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+p {
+    color: red;
+    text-align: left;
+    line-height: 30px;
+    letter-spacing: 3px;
+    column-count: 3;
+    column-gap: 60px;
+}
+ul {
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: yellowgreen; */
+    /*border: 10 solid yellowgreen; */
+    border-bottom: 4px dotted black;
+    border-left: 8px dashed crimson;
+}
+li {
+    list-style-type: none;
+    /*text-shadow: 2px 2px lightblue;*/
+    text-shadow: 2px 2px #E9E9E9;
+}

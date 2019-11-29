@@ -1,0 +1,22 @@
+p.error {
+    color: lightsalmon;
+}
+p.success {
+    color: darkblue;
+}
+p.success.feedback {
+    border: 4px dashed black;
+}
+#content{
+    background-color: lightskyblue;
+    padding: 60px;
+}
+a[href]{
+    background-color: chocolate;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+/*inherit*/
