@@ -1,0 +1,53 @@
+.App {
+  text-align: center;
+}
+
+
+.getWeather {
+  background-color: white;
+  text-align: center;
+  font-weight: 900;
+  font-size: 30px;
+  max-width: 5000px;
+  margin: auto;
+  position: auto;
+  border: 8px solid black;
+  border-radius: 15px;
+  width: 95%;
+}
+
+.weatherFormButton {
+  font-size: 20px;
+  border: 2px solid blue;
+  border-radius: 15px;
+  padding: 10px 24px;;
+  color: blue;
+  background-color: white;  
+  cursor: pointer;
+}
+
+.weatherNameInput {
+  font-size: 25px;
+}
+
+.Nav {
+  background-color:white; 
+  list-style-type: none;
+  text-align: center;
+  margin: auto;
+  padding: 5px;
+  border: 8px solid greenyellow;
+  border-radius: 15px;
+  width: 95%;
+  ;
+}
+
+.Nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.liName {
+  font-weight: bold;
+}
