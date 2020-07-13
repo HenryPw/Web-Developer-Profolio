@@ -1,53 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@300&display=swap" rel="stylesheet" ');
+
+
 .App {
   text-align: center;
+  margin: 0 auto;
 }
 
-
-.getWeather {
-  background-color: white;
-  text-align: center;
-  font-weight: 900;
-  font-size: 30px;
-  max-width: 5000px;
+.card {
   margin: auto;
-  position: auto;
-  border: 8px solid black;
+  background: linear-gradient(to bottom,white,pink);
+  color: black;
+  width: 200px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   border-radius: 15px;
-  width: 95%;
 }
 
-.weatherFormButton {
-  font-size: 20px;
-  border: 2px solid blue;
-  border-radius: 15px;
-  padding: 10px 24px;;
-  color: blue;
-  background-color: white;  
-  cursor: pointer;
+.city{
+  font-family: Merriweather, sans-serif;
+  font-size: 1.6em;
 }
 
-.weatherNameInput {
-  font-size: 25px;
-}
-
-.Nav {
-  background-color:white; 
-  list-style-type: none;
-  text-align: center;
-  margin: auto;
-  padding: 5px;
-  border: 8px solid greenyellow;
-  border-radius: 15px;
-  width: 95%;
-  ;
-}
-
-.Nav li {
-  display: inline-block;
-  font-size: 20px;
-  padding: 20px;
-}
-
-.liName {
-  font-weight: bold;
+.icon {
+  width: 35%;
 }
